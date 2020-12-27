@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class FindTwoNumbersThatSumTo2020 {
+public class FindNumbersThatSumTo2020 {
 	
 	public static void main(String[] args) {
 		
@@ -28,7 +28,7 @@ public class FindTwoNumbersThatSumTo2020 {
 	
 	public static ArrayList<Integer> retrieveNumbers() {
 		
-		File numbersFile = new File("day1-2020-puzzleinput.txt");
+		File numbersFile = new File("numbers.txt");
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		
 		try(FileReader fr = new FileReader(numbersFile);
