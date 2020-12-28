@@ -50,8 +50,6 @@ public class FindNumbersThatSumTo2020 {
 
 	public static int[] findTwoNumbers(ArrayList<Integer> numbers, int matchSum, int exclude) {
 		
-		int numberOne;
-		int numberTwo;
 		int sum;
 		
 		for (int i = 0; i < numbers.size(); i++) {
@@ -74,7 +72,6 @@ public class FindNumbersThatSumTo2020 {
 	
 	public static int[] findThreeNumbers(ArrayList<Integer> numbers, int matchSum) {
 		
-		int numberOne;
 		int sum;
 		int[] twoNumbers;
 		
