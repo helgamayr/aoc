@@ -5,11 +5,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class TobboganMap {
 
@@ -102,7 +97,6 @@ public class TobboganMap {
 		char tree = '#';
 		int curLine = 0, curCol = 0;
 		int numTrees = 0;
-		int numGrids = 1;
 
 		//System.out.println(tobboganMap.length);
 
