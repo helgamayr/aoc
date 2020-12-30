@@ -5,19 +5,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.Time;
-import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-import java.util.Timer;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /*
  * --- Day 7: Handy Haversacks ---
